@@ -86,3 +86,15 @@ nav>div>ul>li>a:hover{
 h2{
     margin-left: 5%;
 }
+
+
+@media screen and (max-width: 920px){
+    .img{
+        display: none;
+    }
+  
+    .titulo>h1{
+        font-size: 5vw;
+    }
+}
+
