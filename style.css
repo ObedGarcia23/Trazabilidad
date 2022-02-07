@@ -9,9 +9,8 @@ body{
 
 .Header {
     margin-top: 10px;
-    background-color: white;
     display: flex;
-    justify-content: space-between;
+    justify-self: unset;
     align-items: center;
 }
 
@@ -21,11 +20,7 @@ body{
 .titulo>h1{
     text-align: center;
     color: #394379;
-}
-
-form{
-    margin-top: 20px;
-    text-align: left;
+    font-size: 2.5vw;
 }
 
 form>.prueba1>div{
@@ -43,7 +38,7 @@ Button{
 }
 
 img{
-    width: 150px;
+    width: 50%;
 }
 
 .img{
@@ -52,10 +47,11 @@ img{
 
 .JDE{
     background-color: green;
+    width: 50%;
 }
+
 nav{
-    background-color: #054B93;
-    padding: 10px;
+    height: 50%;
 }
    
 nav>div>ul>li>a{
@@ -64,9 +60,25 @@ nav>div>ul>li>a{
     margin-left: 10px;
 }
 
+nav>div>ul>li>a:hover{
+    color: #BEB74F;
+}
+
+
 #nav-section{
+    background-color: #054B93;
+    width: 100%;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #054B93;
+    margin-top: 10px;
+}
+
+#formulario_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5%;
+    margin-left: 5%;
 }
